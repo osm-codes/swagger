@@ -1,16 +1,37 @@
-<!-- HTML for static distribution bundle build -->
+<!-- customized HTML, please not use original Swagger fork  -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>AddressForAll API documentation</title>
+    <title>AddressForAll API docs</title>
     <link rel="stylesheet" type="text/css" href="./swagger-ui.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="shortcut icon" type="image/png" href="https://afa.codes/resources/img/address_for_all-01-colorful.ico.png"/>
 <!--     <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /> -->
 <!--     <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" /> -->
   </head>
 
   <body>
+    
+<!-- INCLUDE NON-FORK HERE -->    
+<h1><a target="_blank" href="https://wikifull.addressforall.org/doc/Swagger">API AFA Documentation</a> - PostgREST API</h1>
+<ul><li><a target="_blank" href="https://docs.postgrest.org/en/v13/references/api/tables_views.html">Tabular</a> endpoints: parameters are columns (see models) and filters.
+<ul>
+  <li><a href="#/licenses">licenses</a>: Digital-guard licenses</li>
+  <li><a href="#/jurisdiction">jurisdiction</a>: General-use jurisdiction codes and metadata</li>
+  <li><a href="#/jurisdiction_lexlabel">jurisdiction_lexlabel</a>: URN Lex of jurisdictions</li>
+  <li><a href="#/metadata_viz">metadata_viz</a>: Visualization of the Digital-guard metadata</li>
+  <li><a href="#/redirects">redirects</a>: downloads of Digital-guard</li>
+</ul>
+</li>
+<li><a target="_blank" href="https://docs.postgrest.org/en/v13/references/api/functions.html">Functional</a> endpoints: resal paramters and filters.
+<ul>
+  <li>all PostgREST-RPC endpoints. See WS for cool-URIs (NGINX) endpoints.</li>
+</ul>
+</li>
+<hr/>
+<!-- END OF INCLUDE -->
+  
     <div id="swagger-ui"></div>
     <script src="./swagger-ui-bundle.js" charset="UTF-8"> </script>
 <!--     <script src="./swagger-ui-standalone-preset.js" charset="UTF-8"> </script> -->
